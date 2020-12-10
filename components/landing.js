@@ -7,13 +7,14 @@ function Landing() {
                 <div id="large-header" className="large-header">
                     <canvas id="demo-canvas"></canvas>
                     <h1 className="main-title">
-                    <span className="thin" id="thin">I am Uriah Harston</span>A Full Stack Developer
+                        <div className="thin" id="thin">I am Uriah Harston</div>
+                        A Full Stack Developer
                     </h1>
                     <div className="welcome-icons">
-                        <a href="https://www.linkedin.com/in/uriah-harston/" target="_blank"><i className="fab fa-linkedin-in fa-3x"></i></a>
-                        <a href="https://github.com/uharston" target="_blank"><i className="fab fa-github fa-3x"></i></a>
-                        <a href="https://twitter.com/UriahHarston" target="_blank"><i className="fab fa-twitter fa-3x"></i></a>
-                        <a href="https://medium.com/@uharston" target="_blank"><i className="fab fa-medium fa-3x"></i></a>
+                        <a href="https://www.linkedin.com/in/uriah-harston/" target="_blank"><FaLinkedin size='5rem'/></a>
+                        <a href="https://github.com/uharston" target="_blank"><FaGithub  size='5rem'/></a>
+                        <a href="https://twitter.com/UriahHarston" target="_blank"><FaTwitter  size='5rem'/></a>
+                        <a href="https://medium.com/@uharston" target="_blank"><FaMedium  size='5rem'/></a>
                     </div>  
                 </div>
             </div>
