@@ -8,7 +8,7 @@ function Contact() {
                 <Row>
                     <Col >
                         <p className="description" >I am currently looking to work at a fun, hands-on, and remote-friendly software engineering position. 
-                            Feel free to reach out me with by email at <span >uharston@gmail.com</span>.</p>
+                            Feel free to reach out me with by email at <span className='email'>uharston@gmail.com</span>.</p>
                     </Col>
                     <Col></Col>
                 </Row>

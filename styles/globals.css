@@ -392,6 +392,10 @@ text-decoration: none;
   border: 1px solid green;
 }
 
+.email {
+  color: green;
+}
+
 /* AWS ICON */
 .st0 {
   fill:white
