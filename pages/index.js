@@ -34,7 +34,7 @@ export default function Home() {
         <meta name="image" property="og:image" content="https://live.staticflickr.com/65535/50574220326_2ab86bf8be_k.jpg" />
         <meta name="description" property="og:description" content="_" />
         <meta name="author" content="Uriah Harston" />
-        <link rel="preload" as="font" href="/fonts/robotech-gp/ROBOTECHGP.ttf" type="font/ttf" crossorigin="anonymous"/>
+        <link rel="preload" as="font" href="/fonts/robotech-gp/ROBOTECHGP.ttf" type="font/ttf" crossOrigin="anonymous"/>
 
       </Head>
 {/* 
