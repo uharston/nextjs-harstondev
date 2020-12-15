@@ -2,7 +2,7 @@
   font-family: "ROBOTECHGPRegular";
   src: url("/fonts/robotech-gp/ROBOTECHGP.ttf");
   font-style: normal;
-  font-weight: 100;
+ 
   font-display: swap;
 }
 
@@ -197,9 +197,15 @@ left: 50%;
 transform: translate3d(-50%, -50%, 0);
 }
 
+.title {
+  font-size: 20vw;
+}
+
 .landingIcons {
   font-size: 3em;
 }
+
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -272,7 +278,7 @@ padding-left:10px;
 background-color: black;
 color: whitesmoke;
 }
-h1{
+h1 {
 background: -webkit-linear-gradient(rgb(255, 254, 254),green);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -281,7 +287,6 @@ font-size: 10vw;
 
 h1, h2 {
 font-family: 'ROBOTECHGPRegular';
-font-weight: bold;
 font-style: normal;
 }
 
@@ -294,10 +299,6 @@ padding: 50px;
 margin-bottom: 50px;
 background-color: black;
 }
-/* 
-.navbar-custom {
-background-color: black;
-} */
 
 .project-section {
   background-color: black;
