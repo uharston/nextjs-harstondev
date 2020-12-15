@@ -26,7 +26,7 @@ function ProjectCards() {
                             <h2 className="project-title">Pooch</h2>
                             <div className={styles.projectLinksCtn}>
                                     <a href="https://github.com/uharston/pooch" target="_blank"><FaGithub className={styles.projectLinkIcons}  /></a>
-                                    <a href="https://www.pooch.netlify.app" target="_blank"><FaExternalLinkAlt className={styles.projectLinkIcons}   /></a>
+                                    <a href="https://pooch.netlify.app" target="_blank"><FaExternalLinkAlt className={styles.projectLinkIcons}   /></a>
                             </div>
                             <p className='description'> Dogs are known to be man's best friend. Pooch connects local rescues to percpective owners looking to give these doggos
                                 the love and attention they have been missing. </p>
@@ -61,7 +61,7 @@ function ProjectCards() {
                             <h2 className="project-title">CarQuiz</h2>
                             <div className={styles.projectLinksCtn}>
                                     <a href="https://github.com/uharston/carquiz" target="_blank"><FaGithub className={styles.projectLinkIcons} /></a>
-                                    <a href="https://www.carquiz.netlify.app" target="_blank"><FaExternalLinkAlt className={styles.projectLinkIcons} /></a>
+                                    <a href="https://carquiz.netlify.app" target="_blank"><FaExternalLinkAlt className={styles.projectLinkIcons} /></a>
                             </div>
                             <p className='description'> Do you think of yourself as a somewhat of a car connoisseur? CarQuiz is there for you to test if that is a simple 
                                     dream or if you are indeed a car guru. </p>
