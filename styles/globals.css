@@ -22,8 +22,41 @@ body, html {
   scroll-behavior: smooth;
   background-color: black;
   color: white;
- 
 }
+
+/* 
+a:link {
+  color: white;
+}
+
+
+a:visited {
+  color: white;
+}
+
+
+a:hover {
+  color: green;
+}
+
+
+a:active {
+  color: green;
+} */
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: green;
+}
+
+a:link {
+  color: white
+}
+
 
 .preloader {
    position: absolute;
@@ -125,14 +158,26 @@ transform: translate3d(-50%, -50%, 0);
 position: absolute;
 margin: 0;
 padding: 0;
-width: 100%;
+width: 50%;
 letter-spacing: 7em;
 color: white;
 text-align: center;
 top: 85%;
-left: 55%;
+left: 50%;
 -webkit-transform: translate3d(-50%, -50%, 0);
 transform: translate3d(-50%, -50%, 0);
+}
+
+.landingIcons {
+  font-size: 3em;
+}
+
+.welcome-icons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  vertical-align: bottom;
+
 }
 
 .demo .main-title  {
@@ -160,14 +205,17 @@ text-align: left;
     position: absolute;
     margin: 0;
     padding: 0; 
-    width: 100%;
+    width: 80%;
     letter-spacing: 3em;
     color: white;
     text-align: center;
     top: 85%;
-    left: 55%;
+    left: 50%;
     -webkit-transform: translate3d(-50%, -50%, 0);
     transform: translate3d(-50%, -50%, 0);
+  }
+  .landingIcons {
+    font-size: 3em;
   }
 }
 
@@ -176,14 +224,18 @@ text-align: left;
 position: absolute;
 margin: 0;
 padding: 0;
-width: 100%;
+/* width: 100%; */
 letter-spacing: 1em;
 color: white;
 text-align: center;
 top: 85%;
-left: 52%;
+left: 50%;
 -webkit-transform: translate3d(-50%, -50%, 0);
 transform: translate3d(-50%, -50%, 0);
+}
+
+.landingIcons {
+  font-size: 3em;
 }
 }
 
@@ -327,12 +379,14 @@ font-weight: bold;
 font-style: normal;
 }
 
+
 a { color: inherit; } 
 
 a:hover {
 color: green;
 text-decoration: none;
 }
+
 
 .border-success {
   border: 1px solid green;
