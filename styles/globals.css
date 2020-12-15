@@ -53,6 +53,12 @@ body, html {
   100% { transform: rotate(360deg); }
 }
 .preloader-text {
+  background: -webkit-linear-gradient(rgb(255, 254, 254),green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'ROBOTECHGPRegular';
+  font-style: normal;
+  font-size: 10vw;
   position: absolute;
   left: 50%;
   top: 60%;
