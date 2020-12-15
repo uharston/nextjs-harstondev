@@ -3,7 +3,7 @@ import styles from '../styles/utils.module.css'
 
 function Navigation() {
     return (
-      <Navbar className={styles.navigation} variant="dark" expand="sm">
+      <Navbar className={styles.navigation} variant="dark" expand="sm" sticky='top'>
          <Navbar.Brand href="#home">UH</Navbar.Brand>
          <Navbar.Toggle aria-controls="basic-navbar-nav" />
          <Navbar.Collapse id="basic-navbar-nav">
