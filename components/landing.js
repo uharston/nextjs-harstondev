@@ -16,10 +16,10 @@ function Landing() {
                         // height={500}
                         // priority={true}
                     />
-            <div className="content">
+            {/* <div className="content">
                 <div id="large-header" className="large-header">
                     <canvas id="demo-canvas">
-                        </canvas>
+                        </canvas> */}
                     <h1 className="main-title">
                         <div className="thin" id="thin">I am Uriah Harston</div>
                         A Full Stack Developer
@@ -33,8 +33,8 @@ function Landing() {
                         </div>
                     </div>  
                 </div>
-            </div>
-        </div>
+        //     </div>
+        // </div>
     )
 }
 
