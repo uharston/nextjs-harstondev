@@ -14,12 +14,12 @@ function Landing() {
                         objectPosition='center'
                         // width={1000}
                         // height={500}
-                        // priority={true}
+                         priority={true}
                     />
             {/* <div className="content">
-                <div id="large-header" className="large-header">
+                <div id="large-header" className="large-header"> */}
                     <canvas id="demo-canvas">
-                        </canvas> */}
+                        </canvas>
                     <h1 className="main-title">
                         <div className="thin" id="thin">I am Uriah Harston</div>
                         A Full Stack Developer
