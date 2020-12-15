@@ -92,9 +92,19 @@ z-index: 1;
 }
 
 
-
+/* 
 .demo .large-header {
   background-image: url("/public/images/demo-bg.jpg");
+} */
+
+.demo {
+  position: relative;
+  height: 95vh;
+}
+
+.bg-image {
+  height: 500px;
+  object-position: 0px 60px;
 }
 
 .main-title {
