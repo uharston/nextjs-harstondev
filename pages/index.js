@@ -15,10 +15,17 @@ export default function Home() {
   return (
     <div>
       <Head>
-
-      
- 
+        <title>Uriah Harston | Portfolio </title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="_" />
+        <meta name="title" property="og:title" content="Uriah Harston | Portfolio" />
+        <meta property="og:type" content="_" />
+        <meta name="image" property="og:image" content="https://live.staticflickr.com/65535/50574220326_2ab86bf8be_k.jpg" />
+        <meta name="description" property="og:description" content="_" />
+        <meta name="author" content="Uriah Harston" />
       </Head>
+      
       <div className="page-wrapper" id="Home myDiv" >
 
         <Landing />
