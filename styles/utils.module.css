@@ -23,19 +23,24 @@
 }
 
 .projectLinksCtn {
-    display: inline-block;
-    width: 20%;
+    width: 50%;
     float: right;
-}
-
-.projectLinksCtn2 {
-    display: flex;
-    justify-content: space-between;
-    vertical-align: bottom;
+    text-align: right;
 }
 
 
-.projectLinksCtn2 a {
+@media only screen and (max-width: 390px) {
+    .projectLinksCtn a {
+        padding: 0px 5px;
+      }
+      .projectLinksCtn .projectLinkIcons {
+        font-size: 10vw;
+    }
+}
+.projectLinkIcons {
+    font-size: 2.5em;
+}
+.projectLinksCtn a {
   color: white;
   padding: 0px 10px;
 }

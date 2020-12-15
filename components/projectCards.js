@@ -25,10 +25,8 @@ function ProjectCards() {
                         <div className='project-info'>
                             <h2 className="project-title">Pooch</h2>
                             <div className={styles.projectLinksCtn}>
-                                <div className={styles.projectLinksCtn2}>
-                                    <a href="https://github.com/uharston/pooch" target="_blank"><FaGithub size='2.5em' /></a>
-                                    <a href="https://www.pooch.netlify.app" target="_blank"><FaExternalLinkAlt size='2.5em'  /></a>
-                                </div>
+                                    <a href="https://github.com/uharston/pooch" target="_blank"><FaGithub className={styles.projectLinkIcons}  /></a>
+                                    <a href="https://www.pooch.netlify.app" target="_blank"><FaExternalLinkAlt className={styles.projectLinkIcons}   /></a>
                             </div>
                             <p className='description'> Dogs are known to be man's best friend. Pooch connects local rescues to percpective owners looking to give these doggos
                                 the love and attention they have been missing. </p>
@@ -62,10 +60,8 @@ function ProjectCards() {
 
                             <h2 className="project-title">CarQuiz</h2>
                             <div className={styles.projectLinksCtn}>
-                                <div className={styles.projectLinksCtn2}>
-                                    <a href="https://github.com/uharston/carquiz" target="_blank"><FaGithub size='2.5em' className="float-right " /></a>
-                                    <a href="https://www.carquiz.netlify.app" target="_blank"><FaExternalLinkAlt size='2.5em' className='float-right ' /></a>
-                                </div>
+                                    <a href="https://github.com/uharston/carquiz" target="_blank"><FaGithub className={styles.projectLinkIcons} /></a>
+                                    <a href="https://www.carquiz.netlify.app" target="_blank"><FaExternalLinkAlt className={styles.projectLinkIcons} /></a>
                             </div>
                             <p className='description'> Do you think of yourself as a somewhat of a car connoisseur? CarQuiz is there for you to test if that is a simple 
                                     dream or if you are indeed a car guru. </p>
@@ -98,10 +94,8 @@ function ProjectCards() {
                         <div className='project-info'>
                             <h2 className="project-title">Street Builds</h2>
                             <div className={styles.projectLinksCtn}>
-                                <div className={styles.projectLinksCtn2}>
-                                    <a href="https://github.com/uharston/street-builds" target="_blank"><FaGithub size='2.5em' className="float-right " /></a>
-                                    <a href="https://streetbuilds.herokuapp.com" target="_blank"><FaExternalLinkAlt size='2.5em' className='float-right ' /></a>
-                                </div>
+                                <a href="https://github.com/uharston/street-builds" target="_blank"><FaGithub className={styles.projectLinkIcons} /></a>
+                                <a href="https://streetbuilds.herokuapp.com" target="_blank"><FaExternalLinkAlt className={styles.projectLinkIcons} /></a>
                             </div>
                             <p className='description'> Street Builds is an outlet for car enthusiast to showcase their builds to the online car community, and 
                               a platform to receive inspiration for future projects. </p>
@@ -142,10 +136,10 @@ function ProjectCards() {
                         <div className='project-info'>
                         <h2 className="project-title">Primo</h2>
                         <div className={styles.projectLinksCtn}>
-                                <div className={styles.projectLinksCtn2}>                              
-                                    <a href="https://github.com/uharston/primo" target="_blank"><FaGithub size='2.5em' className="float-right " /></a>
-                                    <a href="https://primospots.herokuapp.com" target="_blank"><FaExternalLinkAlt size='2.5em' className='float-right ' /></a>
-                                </div>
+                                                             
+                            <a href="https://github.com/uharston/primo" target="_blank"><FaGithub className={styles.projectLinkIcons} /></a>
+                            <a href="https://primospots.herokuapp.com" target="_blank"><FaExternalLinkAlt className={styles.projectLinkIcons} /></a>
+                                
                             </div>
                         <p className='description'> Skateboarders are always looking for the next best spot to shred. Primo is a web app designed to connect 
                            skateboarders all over the US to the best skate spots in their local area. </p>
