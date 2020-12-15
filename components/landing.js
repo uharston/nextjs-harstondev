@@ -5,6 +5,7 @@ function Landing() {
     return(
         <div className=" demo">
 
+            <div className="content">
                     <Image
                         className="bg-image"
                         src="/images/demo-bg.jpg"
@@ -16,8 +17,18 @@ function Landing() {
                         // height={500}
                          priority={true}
                     />
-            {/* <div className="content">
-                <div id="large-header" className="large-header"> */}
+                <div id="large-header" className="large-header">
+                <Image
+                        className="bg-image"
+                        src="/images/demo-bg.jpg"
+                        alt="Picture of the galaxy"
+                        layout='fill'
+                        objectFit='cover'
+                        objectPosition='center'
+                        // width={1000}
+                        // height={500}
+                         priority={true}
+                    />
                     <canvas id="demo-canvas">
                         </canvas>
                     <h1 className="main-title">
@@ -33,8 +44,8 @@ function Landing() {
                         </div>
                     </div>  
                 </div>
-        //     </div>
-        // </div>
+             </div>
+         </div>
     )
 }
 
