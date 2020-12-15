@@ -1,8 +1,10 @@
 
 import Head from 'next/head'
 import Link from "next/link"
+import React, { useEffect } from 'react';
 
-import styles from '../styles/Home.module.css'
+
+import styles from '../styles/Home.module.sass'
 import {Container, Nav, Navbar, Row, Col, Form, Button, Card } from 'react-bootstrap'
 import Landing from '../components/landing.js'
 import Navigation from '../components/navigation.js'
@@ -12,11 +14,24 @@ import Contact from '../components/contact.js'
 import Footer from '../components/footer.js'
 
 export default function Home() {
+
+  useEffect(() => {
+    function showPage() {
+      document.getElementsByClassName("preloader")[0].style.display = "none";
+      document.getElementsByClassName("preloader-text")[0].style.display = "none";
+      document.getElementsByClassName('page-wrapper')[0].style.display = 'block'
+
+    }
+    
+    let myVar = setTimeout(showPage, 1000);
+  });
+
+
   return (
     <div>
       <Head>
         <title>Uriah Harston | Portfolio </title>
-        <meta charset="UTF-8"/>
+        <meta charSet="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="description" content="_" />
         <meta name="title" property="og:title" content="Uriah Harston | Portfolio" />
@@ -25,7 +40,15 @@ export default function Home() {
         <meta name="description" property="og:description" content="_" />
         <meta name="author" content="Uriah Harston" />
       </Head>
+
       
+      <div className="preloader"> 
+
+      </div>
+      <h1 className="preloader-text">One Moment...</h1> 
+
+      
+
       <div className="page-wrapper" id="Home myDiv" >
 
         <Landing />
@@ -55,6 +78,8 @@ export default function Home() {
         <Footer />
 
       </div>
+
+      
      
       <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js'></script>
       <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
