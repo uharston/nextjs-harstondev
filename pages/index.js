@@ -41,7 +41,7 @@ export default function Home() {
       <div className="preloader"> 
 
       </div>
-      <h1 className="preloader-text">One Moment...</h1> 
+      <div className="preloader-text">One Moment...</div> 
 
       
 
