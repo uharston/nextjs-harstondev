@@ -1,10 +1,6 @@
 
 import Head from 'next/head'
-import Link from "next/link"
 import React, { useEffect } from 'react';
-
-
-import styles from '../styles/Home.module.sass'
 import {Container, Nav, Navbar, Row, Col, Form, Button, Card } from 'react-bootstrap'
 import Landing from '../components/landing.js'
 import Navigation from '../components/navigation.js'
