@@ -19,7 +19,7 @@ export default function Home() {
       
  
       </Head>
-      <div class="page-wrapper" id="Home myDiv" >
+      <div className="page-wrapper" id="Home myDiv" >
 
         <Landing />
 
