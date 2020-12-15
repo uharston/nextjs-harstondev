@@ -24,38 +24,6 @@ body, html {
   color: white;
 }
 
-/* 
-a:link {
-  color: white;
-}
-
-
-a:visited {
-  color: white;
-}
-
-
-a:hover {
-  color: green;
-}
-
-
-a:active {
-  color: green;
-} */
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover {
-  color: green;
-}
-
-a:link {
-  color: white
-}
 
 
 .preloader {
@@ -130,12 +98,7 @@ z-index: 1;
   background-color: black;
 }
 
-a { color: inherit; } 
 
-a:hover {
-  color: green;
-  text-decoration: none;
-}
 
 .demo .large-header {
 background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
@@ -331,24 +294,10 @@ padding: 50px;
 margin-bottom: 50px;
 background-color: black;
 }
-
+/* 
 .navbar-custom {
 background-color: black;
-}
-/* change the brand and text color */
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-color: rgba(255,255,255,.8);
-}
-/* change the link color */
-.navbar-custom .navbar-nav .nav-link {
-color: white;
-}
-/* change the color of active or hovered links */
-.navbar-custom .nav-item.active .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-color: green;
-}
+} */
 
 .project-section {
   background-color: black;
@@ -374,18 +323,24 @@ background-color: green;
 }
 
 .navbar-logo {
-font-family: 'ROBOTECHGPRegular';
-font-weight: bold;
-font-style: normal;
+  font-family: 'ROBOTECHGPRegular';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.myNav-nav a {
+  color: white;
+}
+
+.nextjs-icon {
+  -ms-transform: rotate(360deg); 
+  -webkit-transform: rotate(360deg); 
+  transform: rotate(360deg);
+  padding: 0px 5px;
 }
 
 
-a { color: inherit; } 
 
-a:hover {
-color: green;
-text-decoration: none;
-}
 
 
 .border-success {
@@ -403,3 +358,14 @@ text-decoration: none;
 .st1 {
   fill:#f90
 }
+
+
+
+.welcome-icons-wrapper a {
+  color:white;
+} 
+
+.welcome-icons-wrapper a:hover {
+  color: green;
+} 
+
