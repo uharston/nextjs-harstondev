@@ -2,6 +2,14 @@
     background-color: black;
 }
 
+.navigation .nav-link {
+    color: white;
+}
+
+.navigation .nav-link:hover {
+    color: green;
+}
+
 .projectCards {
     background-color: black;
     border: 1px solid green;
@@ -26,6 +34,17 @@
     vertical-align: bottom;
 }
 
+
+.projectLinksCtn2 a {
+  color: white;
+  padding: 0px 10px;
+}
+
+.projectLinksCtn2 a:hover {
+  color: green;
+}
+
+
 .faIcons {
     font-size: 2.5em;
 }
@@ -34,6 +53,7 @@
 
 .projectImageContainer {
     text-align: center;
+    padding: 15px 0px;
 }
 
 .footer {
@@ -42,3 +62,18 @@
     padding: 30px 0px;
     margin-top: 40px;
 }
+
+.footerLine {
+    padding-bottom: 16px;
+}
+
+
+.footer a {
+    color: white
+  }
+
+.footer a:hover {
+    text-decoration: none;
+    color: green;
+}
+  
