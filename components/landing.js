@@ -6,18 +6,9 @@ function Landing() {
         <div className=" demo">
 
             <div className="content">
-                    <Image
-                        className="bg-image"
-                        src="/images/demo-bg.jpg"
-                        alt="Picture of the galaxy"
-                        layout='fill'
-                        objectFit='cover'
-                        objectPosition='center'
-                        // width={1000}
-                        // height={500}
-                         priority={true}
-                    />
+                
                 <div id="large-header" className="large-header">
+                    <canvas id="demo-canvas">
                 <Image
                         className="bg-image"
                         src="/images/demo-bg.jpg"
@@ -29,7 +20,7 @@ function Landing() {
                         // height={500}
                          priority={true}
                     />
-                    <canvas id="demo-canvas">
+                        
                         </canvas>
                     <h1 className="main-title">
                         <div className="thin" id="thin">I am Uriah Harston</div>
