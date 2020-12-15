@@ -18,7 +18,7 @@ export default function Home() {
 
     }
     
-    let myVar = setTimeout(showPage, 1200);
+    let myVar = setTimeout(showPage, 1500);
   });
 
 
