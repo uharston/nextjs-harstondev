@@ -11,15 +11,15 @@ import Footer from '../components/footer.js'
 
 export default function Home() {
 
-  useEffect(() => {
-    function showPage() {
-      document.getElementsByClassName("preloader")[0].style.display = "none";
-      document.getElementsByClassName('page-wrapper')[0].style.display = 'block'
+  // useEffect(() => {
+  //   function showPage() {
+  //     document.getElementsByClassName("preloader")[0].style.display = "none";
+  //     document.getElementsByClassName('page-wrapper')[0].style.display = 'block'
 
-    }
+  //   }
     
-    let myVar = setTimeout(showPage, 1000);
-  });
+  //   let myVar = setTimeout(showPage, 1000);
+  // });
 
 
   return (
@@ -37,11 +37,11 @@ export default function Home() {
         <link rel="preload" as="font" href="/fonts/robotech-gp/ROBOTECHGP.ttf" type="font/ttf" crossorigin="anonymous"/>
 
       </Head>
-
+{/* 
       
       <div className="preloader"> 
 
-      </div>
+      </div> */}
 
       
 

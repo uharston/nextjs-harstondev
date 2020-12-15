@@ -231,7 +231,7 @@ font-size: 3em;
   font-family: 'Aldrich-Regular';
   background: black;
   color: whitesmoke;
-  display: none;
+  display: block;
 }
 
 #navbar-text {
