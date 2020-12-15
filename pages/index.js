@@ -14,7 +14,6 @@ export default function Home() {
   useEffect(() => {
     function showPage() {
       document.getElementsByClassName("preloader")[0].style.display = "none";
-      document.getElementsByClassName("preloader-text")[0].style.display = "none";
       document.getElementsByClassName('page-wrapper')[0].style.display = 'block'
 
     }
@@ -41,7 +40,6 @@ export default function Home() {
       <div className="preloader"> 
 
       </div>
-      <div className="preloader-text">One Moment...</div> 
 
       
 
