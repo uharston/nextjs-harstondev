@@ -43,8 +43,6 @@ export default function Home() {
 
       </div> */}
 
-      
-
       <div className="page-wrapper" id="Home myDiv" >
 
         <Landing />
@@ -75,8 +73,6 @@ export default function Home() {
 
       </div>
 
-      
-     
       <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js'></script>
       <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
       <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script>
