@@ -30,9 +30,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="description" content="_" />
         <meta name="title" property="og:title" content="Uriah Harston | Portfolio" />
-        <meta property="og:type" content="_" />
+        <meta property="og:type" content="Software Development Portfolio" />
         <meta name="image" property="og:image" content="https://live.staticflickr.com/65535/50574220326_2ab86bf8be_k.jpg" />
-        <meta name="description" property="og:description" content="_" />
+        <meta name="description" property="og:description" content="Uriah Harston's no template fully responsive portfolio website built with NEXT.js, Vercel, and Bootstrap." />
         <meta name="author" content="Uriah Harston" />
         <link rel="preload" as="font" href="/fonts/robotech-gp/ROBOTECHGP.ttf" type="font/ttf" crossOrigin="anonymous"/>
 
