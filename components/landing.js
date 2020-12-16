@@ -23,18 +23,16 @@ function Landing() {
                 </div>  
             </div>
             <div className="demo">
-                <div className="content">
-                    <div id="large-header" className="large-header">
-                        <Image
-                            className='bg-image'
-                            src="/images/demo-bg.jpg"
-                            alt="Picture of the author"
-                            layout='fill'
-                            objectFit='cover'
-                            objectPosition='center'
-                            priority={true}
-                        />
-                    </div>
+                <div id="large-header" className="large-header">
+                    <Image
+                        className='bg-image'
+                        src="/images/demo-bg.jpg"
+                        alt="Picture of the author"
+                        layout='fill'
+                        objectFit='cover'
+                        objectPosition='center'
+                        priority={true}
+                    />
                 </div>
             </div>
          </div>
