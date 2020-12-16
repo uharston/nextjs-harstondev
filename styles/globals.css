@@ -58,6 +58,18 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 450px) {
+  .preloader-text {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .preloader-text {
+    font-size: 20px;
+  }
+}
+
 /* GLOBAL */
 
 body, html {
@@ -69,6 +81,19 @@ body, html {
   background-color: none;
   color: white;
 }
+
+h1 {
+  background: -webkit-linear-gradient(rgb(255, 254, 254),green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 10vw;
+}
+  
+h1, h2 {
+  font-family: 'ROBOTECHGPRegular';
+  font-style: normal;
+}
+  
 
 
 /* Add animation to "page content" */
@@ -86,7 +111,6 @@ body, html {
 
 
 /* LANDING SECTION */
-
 .canvas-ctn {
   position: absolute;
   width: 100%;
@@ -153,12 +177,13 @@ body, html {
 }
 
 .main-title .thin {
-font-weight: 200;
+  font-weight: 200;
 }
 
 .thin {
-font-size: 0.5em;
+  font-size: 0.5em;
 }
+
 .welcome-icons {
   position: absolute;
   margin: 0;
@@ -185,6 +210,15 @@ font-size: 0.5em;
 
 }
 
+.welcome-icons-wrapper a {
+  color:white;
+} 
+
+.welcome-icons-wrapper a:hover {
+  color: green;
+} 
+
+
 
 /* END */
 
@@ -198,7 +232,7 @@ font-size: 0.5em;
 
 
 .description {
-text-align: left;
+  text-align: left;
 }
 
 @media only screen and (max-width: 1020px) {
@@ -220,56 +254,46 @@ text-align: left;
   }
 }
 
-@media only screen and (max-width: 570px) {
-.welcome-icons {
-position: absolute;
-margin: 0;
-padding: 0;
-/* width: 100%; */
-letter-spacing: 1em;
-color: white;
-text-align: center;
-top: 85%;
-left: 50%;
--webkit-transform: translate3d(-50%, -50%, 0);
-transform: translate3d(-50%, -50%, 0);
-}
-
-.title {
-  font-size: 20vw;
-}
-
-.landingIcons {
-  font-size: 3em;
-}
-
-
-}
-
 @media only screen and (max-width: 768px) {
-.demo .main-title  {
-font-size: 3em;
-}
-}
-
-
-@media only screen and (max-width: 768px) {
+  .landing-content .main-title  {
+    font-size: 3em;
+  }
   .preloader-text {
-  font-size: 40px;
+    font-size: 40px;
   }
+}
+
+@media only screen and (max-width: 570px) {
+  .welcome-icons {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+    letter-spacing: 1em;
+    color: white;
+    text-align: center;
+    top: 85%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
   }
 
-  @media only screen and (max-width: 450px) {
-      .preloader-text {
-      font-size: 30px;
-      }
-      }
+  .title {
+    font-size: 20vw;
+  }
 
-  @media only screen and (max-width: 350px) {
-      .preloader-text {
-      font-size: 20px;
-      }
-      }
+  .landingIcons {
+    font-size: 3em;
+  }
+
+
+}
+
+
+
+
+
+
 
 #navbar-text {
 color: whitesmoke;
@@ -277,24 +301,6 @@ color: whitesmoke;
 
 .page-content {
 padding-top: 50px;
-}
-/* 
-.profile-image{
-margin-top: 30px;
-padding-bottom: 20px;
-width: 210px;
-}
-
-.project-image {
-width: 100%;
-padding-bottom: 30px;
-} */
-
-
-@media only screen and (max-width: 765px) {
-.project-image {
-width: 80%;
-}
 }
 
 .project-title {
@@ -308,17 +314,6 @@ padding-left:10px;
 #footer {
 background-color: black;
 color: whitesmoke;
-}
-h1 {
-background: -webkit-linear-gradient(rgb(255, 254, 254),green);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-size: 10vw;
-}
-
-h1, h2 {
-font-family: 'ROBOTECHGPRegular';
-font-style: normal;
 }
 
 .title {
@@ -392,12 +387,4 @@ background-color: green;
 }
 
 
-
-.welcome-icons-wrapper a {
-  color:white;
-} 
-
-.welcome-icons-wrapper a:hover {
-  color: green;
-} 
 
