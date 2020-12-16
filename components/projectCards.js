@@ -28,7 +28,7 @@ function ProjectCards() {
                                     <a href="https://github.com/uharston/pooch" target="_blank"><FaGithub className={styles.projectLinkIcons}  /></a>
                                     <a href="https://pooch.netlify.app" target="_blank"><FaExternalLinkAlt className={styles.projectLinkIcons}   /></a>
                             </div>
-                            <p className='description'> Dogs are known to be man's best friend. Pooch connects local rescues to percpective owners looking to give these doggos
+                            <p className='description'> Dogs are known to be man's best friend. Pooch connects local rescues to perspective owners looking to give these doggos
                                 the love and attention they have been missing. </p>
                             <div className="project-icons">
                             {/* <img src="./images/google-cloud.png" height="100%"/> */}
