@@ -3,25 +3,13 @@ import { FaLinkedin, FaTwitter, FaMedium, FaGithub } from 'react-icons/fa';
 
 function Landing() {
     return(
-        <div className=" demo">
+       
+        <div className="demo">
 
             <div className="content">
                 
                 <div id="large-header" className="large-header">
-                    <canvas id="demo-canvas">
-                <Image
-                        className="bg-image"
-                        src="/images/demo-bg.jpg"
-                        alt="Picture of the galaxy"
-                        layout='fill'
-                        objectFit='cover'
-                        objectPosition='center'
-                        // width={1000}
-                        // height={500}
-                         priority={true}
-                    />
-                        
-                        </canvas>
+                    <canvas id="demo-canvas" ></canvas>
                     <h1 className="main-title">
                         <div className="thin" id="thin">I am Uriah Harston</div>
                         A Full Stack Developer
@@ -37,6 +25,7 @@ function Landing() {
                 </div>
              </div>
          </div>
+        
     )
 }
 
